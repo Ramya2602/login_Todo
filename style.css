@@ -1,0 +1,22 @@
+body {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(
+      90deg,
+      rgba(2, 0, 36, 1) 0%,
+      rgba(9, 9, 121, 1) 35%,
+      rgba(0, 212, 255, 1) 100%
+    );
+  }
+  
+  .form-outline input {
+    width: 300px;
+    margin: 0px auto;
+  }
+  
+  .input_group.success input {
+    border-color: green;
+  }
+  
+  .input_group.error input {
+    border-color: rgb(245, 60, 3);
+  }
